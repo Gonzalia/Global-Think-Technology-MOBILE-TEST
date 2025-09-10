@@ -21,5 +21,5 @@ npm start
 Here are some screenshots of the app:
 
 ![Home Screen](/readmeImages/screen1.jpeg)
-![Profile Screen](/readmeImages/screen2.jpeg)
-![Settings Screen](/readmeImages/screen3.jpeg)
+![Chat Screen](/readmeImages/screen2.jpeg)
+![Login Screen](/readmeImages/screen3.jpeg)
