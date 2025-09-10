@@ -43,7 +43,7 @@ const LoginScreen = ({ navigation }: any) => {
         <DefaultText customStyles={styles.title}>Global Think Chat</DefaultText>
 
         <DefaultText customStyles={styles.slogan}>
-          Conectá, compartí, chatea, conocé
+          Connect, share, and chat with friends worldwide.
         </DefaultText>
 
         <View style={styles.formContainer}>
@@ -63,10 +63,11 @@ const LoginScreen = ({ navigation }: any) => {
           />
 
           <DefaultText customStyles={styles.passwordRules}>
-            Recuerda que tu contraseña debe tener al menos 6 caracteres y un
-            número.
+            Remember your password must be at least 6 characters long and
+            contain a number.
           </DefaultText>
           <DefaultButton
+            customStyles={{ marginTop: 22 }}
             onPress={handlePressButton}
             text="LogIn"
             disabled={!values.username || !validatePassword(values.password)}
